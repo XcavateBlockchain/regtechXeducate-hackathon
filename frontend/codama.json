@@ -1,0 +1,17 @@
+{
+  "idl": "./anchor/idl/regtech.json",
+  "before": [],
+  "scripts": {
+    "js": [
+      {
+        "from": "@codama/renderers-js",
+        "args": [
+          "generated/reg_tech",
+          {
+            "generatedFolder": "."
+          }
+        ]
+      }
+    ]
+  }
+}

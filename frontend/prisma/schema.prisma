@@ -1,0 +1,642 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Role {
+  OWNER // Controls exactly one Company; full admin within their tenant
+  EMPLOYEE // Belongs to exactly one Company; scoped by EmployeePermission
+  USER // Independent; no company affiliation; enrolls via shared links
+}
+
+enum EmployeePermission {
+  ISSUER // Can mint and revoke credentials on behalf of the company
+  REVIEWER // Can view assessments, submissions, and results
+  AUDITOR // Read-only access to all tenant data
+}
+
+enum ModuleStatus {
+  DRAFT // Not yet visible to employees or public users
+  ACTIVE // Accepting enrollments and assignments
+  ARCHIVED // Hidden from new enrollments; historical records preserved
+}
+
+enum ModuleType {
+  FCA_INVESTMENT // Quiz drawn from fca-investsment.json
+  FCA_REGULATED // Quiz drawn from fca-regulated.json
+  SEC_FRAMEWORK // Quiz drawn from sec-framework.json
+}
+
+enum QuestionType {
+  SINGLE_CHOICE // Exactly one correct answer
+  MULTI_CHOICE // One or more correct answers
+  TRUE_FALSE // Boolean answer
+}
+
+enum EnrollmentStatus {
+  PENDING // Assigned or joined; not yet started
+  IN_PROGRESS // At least one assessment attempt started
+  COMPLETED // Passed the assessment (scoreBps >= passThresholdBps)
+  FAILED // Final attempt submitted below passThresholdBps
+}
+
+enum CredentialStatus {
+  ACTIVE // Valid and verifiable on-chain
+  REVOKED // revoked_at set on-chain; no longer valid
+  EXPIRED // Past expiresAt; on-chain record still exists
+}
+
+enum ActivityType {
+  MODULE_CREATED
+  MODULE_PUBLISHED
+  MODULE_ARCHIVED
+  EMPLOYEE_INVITED
+  EMPLOYEE_REMOVED
+  MODULE_ASSIGNED
+  USER_ENROLLED
+  ASSESSMENT_PASSED
+  ASSESSMENT_FAILED
+  CREDENTIAL_ISSUED
+  CREDENTIAL_REVOKED
+}
+
+enum NotificationType {
+  MODULE_ASSIGNED
+  ASSESSMENT_DUE
+  CREDENTIAL_ISSUED
+  CREDENTIAL_REVOKED
+  INVITATION
+}
+
+enum FundingRequestStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  CANCELLED
+}
+
+model User {
+  id            String  @id @default(cuid())
+  userId        String  @unique // stable external-facing ID e.g. "usr_abc123"
+  walletAddress String  @unique // Solana public key (base58); immutable after creation
+  name          String
+  email         String  @unique
+  avatarUrl     String?
+  role          Role // Discriminator; enforced at app + DB level
+
+  company    Company? // role = OWNER
+  employment Employee? // role = EMPLOYEE
+  // role = USER → no company relation
+
+  enrollments   ModuleEnrollment[]
+  attempts      AssessmentAttempt[] @relation("AttemptsByUser")
+  credentials   Credential[]        @relation("CredentialHolder")
+  notifications Notification[]
+  activityLogs  ActivityLog[]       @relation("ActorLogs")
+
+  createdAt DateTime @default(now()) @map(name: "created_at")
+  updatedAt DateTime @default(now()) @map(name: "updated_at")
+
+  @@index([email])
+  @@index([walletAddress])
+  @@index([role])
+  @@map("users")
+}
+
+model Company {
+  id                String  @id @default(cuid())
+  slug              String  @unique // e.g. "acme-compliance"
+  name              String
+  logoUrl           String?
+  website           String?
+  description       String?
+  partnerId         String  @unique @default(uuid()) @map("partner_id")
+  collectionAddress String? @map("collection_address")
+  attestor          String?
+  // passThresholdBps: 0–10000 (7000 = 70%). Mirrors partner.pass_threshold_bps on-chain.
+  passThreshold     Int     @default(70) @map("pass_threshold")
+  // cool down period: minimum wait between attempts. Mirrors partner.cooldown_seconds.
+  coolDownPeriod    Int     @default(86400) @map("cool_down_period")
+
+  swigAddress String? @map("swig_address") // Swig PDA = partner_admin in regtech
+  swigId      String? @map("swig_id") // base64-encoded 32-byte Swig ID
+
+  txConfirmed Boolean @default(false) @map("tx_confirmed")
+  txHash      String? @map("tx_hash")
+
+  ownerId      String        @unique
+  owner        User          @relation(fields: [ownerId], references: [id], onDelete: Restrict)
+  employees    Employee[]
+  modules      Module[]
+  invites      Invite[]
+  credentials     Credential[]       @relation("IssuingCompany")
+  activityLogs    ActivityLog[]      @relation("CompanyLogs")
+  fundingRequests FundingRequest[]
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @default(now()) @map("updated_at")
+
+  @@index([slug])
+  @@index([ownerId])
+  @@index([partnerId])
+  @@map("companies")
+}
+
+model FundingRequest {
+  id                String               @id @default(cuid())
+  companyId         String               @map("company_id")
+  company           Company              @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  requestedLamports String               @map("requested_lamports")
+  dailyCapLamports  String?              @map("daily_cap_lamports")
+  reason            String?
+  status            FundingRequestStatus @default(PENDING)
+
+  requestedByWallet String   @map("requested_by_wallet")
+  createdAt         DateTime @default(now()) @map("created_at")
+
+  decidedAt       DateTime? @map("decided_at")
+  decidedByWallet String?   @map("decided_by_wallet")
+  rejectReason    String?   @map("reject_reason")
+  txHash          String?   @map("tx_hash")
+
+  @@index([companyId])
+  @@index([status])
+  @@map("funding_requests")
+}
+
+// Join table linking a User (role=EMPLOYEE) to their Company.
+model Employee {
+  id        String  @id @default(cuid())
+  userId    String  @unique // @unique prevents dual-company membership
+  companyId String
+  user      User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  department String?
+  jobTitle   String?
+  permission EmployeePermission @default(REVIEWER)
+
+  // Invite back-reference — set when claimInvite is called
+  inviteId String? @unique
+  invite   Invite? @relation(fields: [inviteId], references: [id])
+
+  invitedByUserId String?
+  invitedAt       DateTime?
+
+  assignments ModuleAssignment[]
+  attempts    AssessmentAttempt[] @relation("AttemptsByEmployee")
+
+  joinedAt  DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([userId, companyId])
+  @@index([companyId])
+  @@index([permission])
+  @@map("employees")
+}
+
+model Invite {
+  id        String  @id @default(cuid())
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  email      String
+  inviteeName String? @map("invitee_name")
+  role       String             @default("member")
+  permission EmployeePermission @default(REVIEWER)
+
+  token     String    @unique @default(cuid())
+  expiresAt DateTime
+  claimedAt DateTime?
+  claimedBy String? // walletAddress of the user who claimed it
+
+  employee Employee?
+
+  createdAt  DateTime @default(now())
+  employeeId String?
+
+  @@index([companyId])
+  @@index([token])
+  @@index([email])
+  @@map("invites")
+}
+
+model Module {
+  id        String  @id @default(cuid())
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  name           String
+  description    String
+  category       String
+  language       String       @default("English")
+  completionTime String
+  thumbnailUrl   String       @map("thumbnail_url")
+  files          ModuleFile[]
+
+  moduleIdHash String? @unique @map("module_id_hash")
+  moduleCode   String?
+
+  // metadataUri: IPFS/Arweave URI stored on-chain in the Module PDA.
+  metadataUri    String?
+  // credentialType: human-readable label e.g. "AML_LEVEL_2". Off-chain only —
+  // NOT a PDA seed. On-chain uses moduleIdHash as the module identifier.
+  credentialType String
+
+  // On-chain assessment thresholds (in basis points, 0–10000).
+  // passThresholdBps: mirrors module.pass_threshold_bps on-chain.
+  //   Inherits from partner if no override given at register_module time.
+  passThreshold    Int  @map("pass_threshold") // 0–10000; display as bps / 100 %
+  coolDownSeconds  Int  @map("cool_down_seconds") // min seconds between attempts
+  expiresInSeconds Int? @map("expires_in_seconds") // null = credentials never expire
+
+  // ── Assessment rules (off-chain enforcement) ──────────────────────────────
+  maxRecipients Int // Hard cap on total enrollments
+  maxAttempts   Int @default(3) // Constrained at app layer; on-chain has no hard limit
+
+  status     ModuleStatus @default(DRAFT)
+  moduleType ModuleType   @default(FCA_INVESTMENT) @map("module_type")
+
+  // shareToken: embedded in public URL /m/:shareToken/join
+  shareToken String @unique @default(cuid())
+
+  // onChainSynced: false until register_module tx confirmed.
+  txConfirmed Boolean @default(false) @map("tx_confirmed")
+  txHash      String? @map("tx_hash")
+
+  createdAt         DateTime           @default(now()) @map("created_at")
+  updatedAt         DateTime           @updatedAt @map("updated_at")
+  moduleAssignments ModuleAssignment[]
+  moduleEnrollments ModuleEnrollment[]
+  assessment        Assessment?
+  credentials       Credential[]
+
+  @@index([companyId])
+  @@index([status])
+  @@index([shareToken])
+  @@index([moduleIdHash])
+  @@index([credentialType])
+}
+
+model ModuleFile {
+  id       String @id @default(cuid())
+  moduleId String
+  module   Module @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+
+  fileName  String   @map("file_name")
+  fileUrl   String   @map("file_url")
+  fileSize  Int      @map("file_size") // Bytes
+  mimeType  String
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([moduleId])
+  @@map("files")
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// ENROLLMENT & ASSIGNMENT
+// ─────────────────────────────────────────────────────────────────────────────
+
+// EMPLOYEE → MODULE (assigned by owner/issuer)
+model ModuleAssignment {
+  moduleId   String
+  employeeId String
+  module     Module   @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  employee   Employee @relation(fields: [employeeId], references: [id], onDelete: Cascade)
+
+  assignedByUserId String
+  deadline         DateTime?
+  status           EnrollmentStatus @default(PENDING)
+
+  // On-chain Enrollment PDA address. Null until enroll_user tx is confirmed.
+  // PDA seeds: ["enrollment", employee.user.walletAddress, partner_id, module_id_hash]
+  onChainEnrollmentAddress String?
+
+  // reason_code mirrors the u8 on-chain. 0 = standard assignment.
+  reasonCode Int @default(0)
+
+  // finalScoreBps: score from the passing attempt in basis points (0–10000).
+  // Source: on-chain Attempt.last_score_bps. Display as finalScoreBps / 100 %.
+  finalScoreBps Int?
+  completedAt   DateTime?
+  credentialId  String?     @unique
+  credential    Credential? @relation(fields: [credentialId], references: [id])
+
+  assignedAt DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@id([moduleId, employeeId])
+  @@index([employeeId])
+  @@index([status])
+  @@index([onChainEnrollmentAddress])
+}
+
+// USER → MODULE (public enrollment via shareToken link)
+model ModuleEnrollment {
+  moduleId String
+  userId   String
+  module   Module @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  user     User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  status EnrollmentStatus @default(PENDING)
+
+  // On-chain Enrollment PDA address. Null until enroll_user tx is confirmed.
+  // PDA seeds: ["enrollment", user.walletAddress, partner_id, module_id_hash]
+  onChainEnrollmentAddress String?
+
+  reasonCode Int @default(0)
+
+  // finalScoreBps: basis points (0–10000). Display as finalScoreBps / 100 %.
+  finalScoreBps Int?
+  completedAt   DateTime?
+  credentialId  String?     @unique
+  credential    Credential? @relation(fields: [credentialId], references: [id])
+
+  joinedAt  DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@id([moduleId, userId])
+  @@index([userId])
+  @@index([status])
+  @@index([onChainEnrollmentAddress])
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// ASSESSMENT ENGINE
+// ─────────────────────────────────────────────────────────────────────────────
+
+model Assessment {
+  id       String @id @default(cuid())
+  moduleId String @unique
+  module   Module @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+
+  title       String
+  description String?
+  timeLimit   Int? // Seconds; null = unlimited
+  randomise   Boolean @default(false)
+
+  batches   QuestionBatch[]
+  attempts  AssessmentAttempt[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model QuestionBatch {
+  id           String     @id @default(cuid())
+  assessmentId String
+  assessment   Assessment @relation(fields: [assessmentId], references: [id], onDelete: Cascade)
+
+  label     String
+  sortOrder Int @default(0)
+
+  questions Question[]
+  attempts  AssessmentAttempt[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([assessmentId])
+}
+
+model Question {
+  id           String     @id @default(cuid())
+  batchId String
+  batch   QuestionBatch @relation(fields: [batchId], references: [id], onDelete: Cascade)
+
+  text        String
+  type        QuestionType
+  explanation String?
+  points      Int          @default(1)
+  sortOrder   Int          @default(0)
+
+  options QuestionOption[]
+  answers AttemptAnswer[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([batchId])
+}
+
+model QuestionOption {
+  id         String   @id @default(cuid())
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  text      String
+  isCorrect Boolean @default(false)
+  sortOrder Int     @default(0)
+
+  @@index([questionId])
+}
+
+// One row per learner per attempt.
+model AssessmentAttempt {
+  id           String     @id @default(cuid())
+  assessmentId String
+  assessment   Assessment @relation(fields: [assessmentId], references: [id])
+
+  batchId String?
+  batch   QuestionBatch? @relation(fields: [batchId], references: [id])
+
+  // Exactly one of the following will be set:
+  employeeId String?
+  employee   Employee? @relation("AttemptsByEmployee", fields: [employeeId], references: [id])
+  userId     String?
+  user       User?     @relation("AttemptsByUser", fields: [userId], references: [id])
+
+  attemptNumber Int @default(1)
+
+  // score: off-chain computed percentage (0–100) for display.
+  score  Int?
+  passed Boolean?
+
+  // On-chain Attempt PDA address. Null until start_attempt tx is confirmed.
+  // PDA seeds: ["attempt", user_pubkey, partner_id, module_id_hash]
+  onChainAttemptAddress String?
+
+  // onChainScoreBps: the score submitted via submit_attempt (0–10000).
+  // This is the authoritative value — the contract uses this to evaluate pass/fail.
+  // score (above) is derived from this: onChainScoreBps / 100.
+  onChainScoreBps Int?
+
+  startedAt   DateTime  @default(now())
+  submittedAt DateTime?
+
+  answers AttemptAnswer[]
+
+  @@unique([assessmentId, employeeId, attemptNumber])
+  @@unique([assessmentId, userId, attemptNumber])
+  @@index([assessmentId])
+  @@index([batchId])
+  @@index([employeeId])
+  @@index([userId])
+  @@index([onChainAttemptAddress])
+}
+
+model AttemptAnswer {
+  id         String            @id @default(cuid())
+  attemptId  String
+  attempt    AssessmentAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  questionId String
+  question   Question          @relation(fields: [questionId], references: [id])
+
+  selectedOptions String[] // Array of QuestionOption IDs
+  isCorrect       Boolean?
+
+  @@index([attemptId])
+  @@index([questionId])
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// CREDENTIALS (ON-CHAIN MIRROR)
+// ─────────────────────────────────────────────────────────────────────────────
+
+// Off-chain metadata mirroring the on-chain Credential PDA.
+// onChainAddress is the canonical source of truth for validity.
+//
+// Actual PDA seed derivation (programs/regtech/src/instructions/claim_credential.rs):
+//   ["credential", enrollment.user (pubkey), partner.partner_id ([u8;16]), module.module_id_hash ([u8;32])]
+//
+// To recompute PDA without a DB join:
+//   PublicKey.findProgramAddressSync(
+//     [Buffer.from("credential"), base58.decode(recipient.walletAddress),
+//      uuidToBytes(onChainPartnerId), Buffer.from(moduleIdHash, "hex")],
+//     PROGRAM_ID
+//   )
+model Credential {
+  id String @id @default(cuid())
+
+  // ── Recipient ─────────────────────────────────────────────────────────────
+  recipientId String
+  recipient   User   @relation("CredentialHolder", fields: [recipientId], references: [id])
+
+  // ── Issuer ────────────────────────────────────────────────────────────────
+  issuingCompanyId String
+  issuingCompany   Company @relation("IssuingCompany", fields: [issuingCompanyId], references: [id])
+  issuedByUserId   String
+
+  // ── Module link ───────────────────────────────────────────────────────────
+  moduleId String?
+  module   Module? @relation(fields: [moduleId], references: [id], onDelete: SetNull)
+
+  // ── PDA reconstruction fields ─────────────────────────────────────────────
+  // Stored redundantly so PDA can be derived without joining Company or Module.
+  onChainPartnerId String // UUID string of partner_id [u8;16]
+  moduleIdHash     String // hex(SHA256(moduleCode))
+
+  // ── Type & metadata ───────────────────────────────────────────────────────
+  credentialType String // e.g. "AML_LEVEL_2"; off-chain label only
+  metadataUri    String
+
+  // scoreBps: basis points (0–10000). Mirrors Credential.score_bps on-chain.
+  // Display as scoreBps / 100 %. Never convert before storing.
+  scoreBps Int?
+
+  // ── On-chain references ───────────────────────────────────────────────────
+  onChainAddress String @unique // Credential PDA address (base58)
+  txSignature    String // claim_credential tx signature
+
+  // credentialAsset: mpl-core Asset pubkey minted to recipient.
+  // Currently null on-chain (claim_credential sets credential_asset = None).
+  // Will be populated once the NFT mint instruction is wired in.
+  credentialAsset String? // base58 Solana pubkey
+
+  // ── Lifecycle ─────────────────────────────────────────────────────────────
+  status    CredentialStatus @default(ACTIVE)
+  issuedAt  DateTime         @default(now())
+  expiresAt DateTime?
+
+  // ── Revocation ────────────────────────────────────────────────────────────
+  isRevoked        Boolean   @default(false)
+  revokedAt        DateTime?
+  revokedByUserId  String?
+  revocationReason String?
+  revocationTxSig  String? // Future: revoke_credential tx signature (instruction not yet implemented)
+
+  moduleAssignment ModuleAssignment?
+  moduleEnrollment ModuleEnrollment?
+  revocations      CredentialRevocationLog[]
+
+  @@index([recipientId])
+  @@index([issuingCompanyId])
+  @@index([onChainPartnerId])
+  @@index([moduleIdHash])
+  @@index([credentialType])
+  @@index([status])
+  @@index([onChainAddress])
+}
+
+// Immutable audit trail for revocation events.
+model CredentialRevocationLog {
+  id           String     @id @default(cuid())
+  credentialId String
+  credential   Credential @relation(fields: [credentialId], references: [id])
+
+  revokedByUserId String
+  reason          String?
+  txSignature     String?
+  revokedAt       DateTime @default(now())
+
+  @@index([credentialId])
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// NOTIFICATIONS
+// ─────────────────────────────────────────────────────────────────────────────
+
+model Notification {
+  id     String @id @default(cuid())
+  userId String
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  type     NotificationType
+  title    String
+  body     String
+  metadata Json?
+  read     Boolean          @default(false)
+  readAt   DateTime?
+
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+  @@index([read])
+  @@index([createdAt])
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// ACTIVITY LOG (TENANT AUDIT TRAIL)
+// ─────────────────────────────────────────────────────────────────────────────
+
+// Append-only. Never update or delete rows.
+model ActivityLog {
+  id String @id @default(cuid())
+
+  companyId String
+  company   Company @relation("CompanyLogs", fields: [companyId], references: [id], onDelete: Cascade)
+
+  actorId String
+  actor   User   @relation("ActorLogs", fields: [actorId], references: [id])
+
+  type      ActivityType
+  metadata  Json?
+  ipAddress String?
+
+  createdAt DateTime @default(now())
+
+  @@index([companyId])
+  @@index([actorId])
+  @@index([type])
+  @@index([createdAt])
+}

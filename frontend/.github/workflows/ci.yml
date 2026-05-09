@@ -1,0 +1,80 @@
+name: CI Check
+
+on:
+    pull_request:
+        branches: [ "*" ]
+    push:
+        branches: [ "main" ]
+
+jobs:
+    lint:
+        runs-on: ubuntu-latest
+        name: Lint
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+
+            - name: Install Bun
+              uses: oven-sh/setup-bun@v2
+              with:
+                  bun-version: latest
+
+            - name: Install dependencies
+              run: bun install
+              env:
+                  # Prisma loads `prisma.config.ts` which requires DATABASE_URL to exist.
+                  # A dummy local URL is sufficient for `prisma generate` (no DB connection needed).
+                  DATABASE_URL: postgresql://postgres:postgres@localhost:5432/postgres?schema=public
+
+            - run: cp .env.example .env
+
+            - run: bun run lint
+
+    format:
+        runs-on: ubuntu-latest
+        name: Format
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+
+            - name: Install Bun
+              uses: oven-sh/setup-bun@v2
+              with:
+                  bun-version: latest
+
+            - name: Install dependencies
+              run: bun install
+              env:
+                  # Prisma loads `prisma.config.ts` which requires DATABASE_URL to exist.
+                  # A dummy local URL is sufficient for `prisma generate` (no DB connection needed).
+                  DATABASE_URL: postgresql://postgres:postgres@localhost:5432/postgres?schema=public
+
+            - run: cp .env.example .env
+
+            - run: bun run check
+
+    tsc:
+        runs-on: ubuntu-latest
+        name: Typecheck
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+
+            - name: Install Bun
+              uses: oven-sh/setup-bun@v2
+              with:
+                  bun-version: latest
+
+            - name: Install dependencies
+              run: bun install
+              env:
+                  # Prisma loads `prisma.config.ts` which requires DATABASE_URL to exist.
+                  # A dummy local URL is sufficient for `prisma generate` (no DB connection needed).
+                  DATABASE_URL: postgresql://postgres:postgres@localhost:5432/postgres?schema=public
+
+            - run: cp .env.example .env
+
+            - run: bun run typecheck

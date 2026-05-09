@@ -1,0 +1,2759 @@
+{
+  "batches": [
+    {
+      "id": "batch1",
+      "questions": [
+        {
+          "id": "b1q1",
+          "text": "According to the document, what does a price graph display?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The opening definition states that a price graph shows the change in price for an investment over a period of time.",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "The change in price for an investment over a period of time",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "A guaranteed forecast of the investment's future price",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "A list of authorised advisers covering that investment",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "The dividend yield calendar for the investment",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b1q2",
+          "text": "The document compares access to a single company's full performance history via a price graph to which concept?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The text describes the access as a 'footprint', used to research the lifecycle of a stock and how it has performed in the past.",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            {
+              "id": "a",
+              "text": "A binding regulatory disclosure",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "A footprint used to research a stock's lifecycle and past performance",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "A guaranteed return ladder",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "A market manipulation indicator",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b1q3",
+          "text": "In the FTSE 100 example, what was the quoted price of the investment on the date shown?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document states the price of the stock is £8,924.91 on July 11, 2025, representing how much it would cost to buy one of every share in the fund on that day.",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "£8,924.91 on 11 July 2025",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "£10,000 on 1 January 2025",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "£8,924.91 on 11 November 2025",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "£12,500 on 30 June 2025",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b1q4",
+          "text": "According to the document, who can use price graphs as part of their research?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The text explicitly states 'Whether you're a beginner or an expert, all investors can use them.'",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            {
+              "id": "a",
+              "text": "Only FCA-authorised professional advisers",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Only investors holding more than £100,000 in a single fund",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "All investors, whether beginner or expert",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Only members of FCA-regulated trading group chats",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b1q5",
+          "text": "Select all the uses of a price graph that the document explicitly identifies. (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document states price graphs can be used to check the past performance of a stock, assess the level of price volatility, and (for a single company share) give access to the full performance history of a stock.",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "Checking the past performance of a stock",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Assessing the level of a stock's price volatility",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Accessing the full performance history of a single company's share",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Confirming the FCA authorisation status of the issuer",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b1q6",
+          "text": "Which of the following considerations does the document say a price graph can help with? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document says price graphs could help you determine whether the investment is right for you and how comfortable you are with the level of risk involved.",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            {
+              "id": "a",
+              "text": "Whether the investment is right for you",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "How comfortable you are with the level of risk involved",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Guaranteeing the future return of the investment",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Bypassing the need for any further research",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b1q7",
+          "text": "The document highlights the FTSE 100 chart in its example as having been taken from which source? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document states the FTSE 100 price graph has been taken from the Financial Times markets data, and identifies the index/fund as FTSE 100 with the ticker FTSE: FSI.",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            {
+              "id": "a",
+              "text": "Financial Times markets data",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "The FTSE 100 index, abbreviated FTSE: FSI",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "An FCA-issued daily pricing bulletin",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "An anonymous Telegram trading group chat",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b1q8",
+          "text": "True or False: The document states that price graphs can be an important part of researching a new market or stock when investing online.",
+          "type": "TRUE_FALSE",
+          "explanation": "The text says: 'When investing online, price graphs can be an important part of your research into a new market or stock.'",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b1q9",
+          "text": "True or False: The document treats price graphs as a sufficient stand-alone basis for choosing an investment, without further sources.",
+          "type": "TRUE_FALSE",
+          "explanation": "The tips section explicitly says: 'Don't rely on price graphs as your only source of reliable investment information — instead, use a range of sources.'",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b1q10",
+          "text": "True or False: The document states that the £8,924.91 figure in the example is what it would cost to buy one of every share in the fund on that day.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document explicitly says the price 'is how much it would cost to buy one of every share in this fund on that day.'",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batch2",
+      "questions": [
+        {
+          "id": "b2q1",
+          "text": "According to the document, what is a 'stock ticker symbol'?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document describes the abbreviation under a stock name (e.g. 'FTSE: FSI') as a stock ticker symbol — a unique symbol of letters assigned to a stock for trading.",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "A unique symbol of letters assigned to a stock for trading",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "A regulator-issued identifier for retail clients",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "A coded representation of an issuer's credit rating",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "A guarantee mark for FSCS-protected products",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b2q2",
+          "text": "The document states that ticker symbols are allocated at which level?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The 'Price graph symbols' aside states symbols are allocated at market level, so a company on one exchange could share a symbol with one elsewhere.",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            {
+              "id": "a",
+              "text": "At firm level by the issuer",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "At market level by each exchange",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "At national level by the FCA",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "At international level by an industry trade body",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b2q3",
+          "text": "In the chart-analysis section described, what do the x-axis and y-axis represent in the worked example?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document states the x-axis shows the day of the week and the y-axis shows how much the stock price was at that time.",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "X-axis = trading volume; Y-axis = number of shareholders",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "X-axis = day of the week; Y-axis = stock price at that time",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "X-axis = social media mentions; Y-axis = guaranteed return",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "X-axis = FCA risk score; Y-axis = FSCS coverage limit",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b2q4",
+          "text": "What does the document say a 'closing price' represents when researching a stock outside operating hours?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The 'Operating hours' aside defines closing price as the last price the investment was traded at during opening hours.",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            {
+              "id": "a",
+              "text": "A price guaranteed by the exchange for the next day",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "The last price the investment was traded at during opening hours",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "The opening price for the previous trading week",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "An adviser-set indicative price for retail clients",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b2q5",
+          "text": "Where does the document say ticker symbols often appear when used to find information about an investment? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document states ticker symbols are often seen following a dollar sign on social media, within trading apps, or in articles online.",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "Following a dollar sign on social media",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Within trading apps",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "In articles online",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Stamped on a customer's FSCS protection certificate",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b2q6",
+          "text": "Which of the following can be analysed in the price-graph data section described in the document? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document says you can find the peaks and dips in prices throughout the day, month or year, and that the data can be used to assess how volatile a specific stock is.",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            {
+              "id": "a",
+              "text": "Peaks and dips in prices throughout the day, month or year",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "How volatile a specific stock is",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "The exact future closing price for the next month",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "The guaranteed FSCS payout amount",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b2q7",
+          "text": "Which of the following are explicitly identified by the document as elements within the performance-over-time section of a price graph? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document says this section helps keep in mind the longevity of the investment and how it fits into a long-term strategy, and helps identify key trends such as crashes and spikes and assess the volatility of a stock.",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            {
+              "id": "a",
+              "text": "Longevity of the investment and fit with long-term strategy",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Identification of key trends such as crashes and spikes",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Assessment of the stock's volatility",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Issuance of a binding regulatory recommendation to buy",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b2q8",
+          "text": "True or False: The document states the stock market usually operates between 8am and 4:30pm.",
+          "type": "TRUE_FALSE",
+          "explanation": "The 'Operating hours' aside states the stock market usually operates between 8am and 4:30pm.",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b2q9",
+          "text": "True or False: The document gives Tesco and Tractor Supply Company as both using the symbol $TSCO across different markets.",
+          "type": "TRUE_FALSE",
+          "explanation": "The 'Price graph symbols' aside specifically gives this example: 'British supermarket giant Tesco, or American rural lifestyle retailer, Tractor Supply Company? The symbol for both of these companies is $TSCO.'",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b2q10",
+          "text": "True or False: According to the document, prices often fluctuate during trading hours.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document states 'Prices often fluctuate during trading hours' when describing the price element of the FTSE 100 example.",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batch3",
+      "questions": [
+        {
+          "id": "b3q1",
+          "text": "According to the document, what disclaimer are sources presenting performance charts required to display?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document states such sources are required to display a disclaimer informing users that 'past performance is not a reliable indicator of future performance.'",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "Past performance is not a reliable indicator of future performance",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "All charts have been verified by the FCA",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Returns are guaranteed up to the FSCS limit",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "All investments shown are suitable for retail customers",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b3q2",
+          "text": "What does the document say about the relationship between past and future performance of a stock?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document states: 'There is no correlation between a stock's past performance and future performance.'",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            {
+              "id": "a",
+              "text": "Past performance reliably predicts a stock's future direction",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "There is no correlation between a stock's past performance and future performance",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "The correlation is guaranteed if the chart shows a multi-year uptrend",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Past performance becomes predictive only in regulated funds",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b3q3",
+          "text": "If the main thing being advertised about a stock is how well it has done in the past, the document treats this as which of the following?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document states this is a red flag, warning that more important information may be being left out.",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "A reliable signal of future returns",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "A red flag — more important information may be being left out",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "A confirmation of FCA authorisation",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "A guarantee of FSCS protection",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b3q4",
+          "text": "The document advises that, when reading price graphs, the reader should remember that stock prices behave how?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The tips section states stock prices are constantly changing — the price seen an hour ago may change by the end of the day, and you should not allow this to rush you into buying.",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            {
+              "id": "a",
+              "text": "They are fixed for the trading day once the market opens",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "They are constantly changing — an hour-old price may change by the end of the day",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "They only change when the FCA issues a price update",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "They are guaranteed not to fall once a disclaimer is shown",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b3q5",
+          "text": "Which of the following are described in the document as ways hyped price graphs can mislead readers? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document warns hyped graphs often highlight the good parts (spikes and gains) without showing the full picture, what drove these gains, or the risks involved, and that they can be used as a hype tactic to get people excited and ready to invest right away.",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "Highlighting only spikes and gains without the full picture",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Failing to show what drove the gains or the risks involved",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Encouraging investors to act quickly without additional research",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Independently verifying the issuer's regulatory status",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b3q6",
+          "text": "Which of the following are listed in the document's tips for using price graphs without getting caught up in hype? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The tips section lists: do not rely on price graphs as your only source — use a range of sources; make decisions that are right for your personal circumstances (your situation isn't the same as your friend's); remember stock prices are constantly changing and don't let that rush you.",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            {
+              "id": "a",
+              "text": "Use a range of sources rather than price graphs alone",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Make investment decisions suited to your own personal circumstances",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Avoid letting constant price changes rush you into buying",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Always copy the trades of a friend who is more confident",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b3q7",
+          "text": "Which of the following statements about hype and price graphs are explicitly supported by the document? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document explicitly states: hype is everywhere; when an investment is hyped it is common for people to share graphs showing sharp rises or quick jumps in value to create urgency; the disclaimer about past performance is often overlooked and could impact how you assess the price graph.",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            {
+              "id": "a",
+              "text": "Sharp-rise graphs are commonly shared during hype to create urgency",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "The past-performance disclaimer is often overlooked by readers",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "You should be wary of sources who claim to predict the success of a stock",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Hyped graphs are guaranteed to be accurate as they are widely shared",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b3q8",
+          "text": "True or False: The document states that data shown in hyped price graphs is always presented in the reader's best interests.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document explicitly says 'data in these graphs are not always playing in your best interests' and that data can be presented to create an inaccurate impression of a stock's performance.",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b3q9",
+          "text": "True or False: According to the document, you should always do your own research through a variety of trusted sources when determining whether an investment is right for you.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document explicitly states this in the 'Dodge the hype and escape FOMO' guidance: 'You should always do your own research through a variety of trusted sources, when determining whether an investment is right for you.'",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b3q10",
+          "text": "True or False: The document advises that, because your friend's circumstances may differ from your own, you should make investment decisions that are right for your personal circumstances.",
+          "type": "TRUE_FALSE",
+          "explanation": "The tips section states: 'Make investment decisions that are right for your personal circumstances. Remember, your situation isn't the same as your mate's — make investments that are right for you.'",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batch4",
+      "questions": [
+        {
+          "id": "b4q1",
+          "text": "According to the document, are 'general-purpose' AI tools like ChatGPT or Gemini set up to help with researching investments?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document states such tools are designed to respond to a variety of prompts and topics and 'aren't set up to help with researching opportunities to invest or other financial decisions you make.'",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "Yes — they are explicitly designed for investment research",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "No — they are designed for a variety of prompts and not set up for investment research or financial decisions",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Yes, but only when running on a regulated firm's infrastructure",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Yes, provided the user has FCA-authorised adviser status",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b4q2",
+          "text": "How does the document describe the regulatory status of general-purpose AI tools, compared to advice from an authorised professional adviser?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document states general-purpose tools 'are not regulated by us in the way that regulated financial advice from an authorised professional adviser is.'",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            {
+              "id": "a",
+              "text": "They are regulated identically to authorised advisers",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "They are not regulated by the FCA in the way regulated advice from an authorised professional adviser is",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "They are regulated as investment platforms",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "They are exempt from any oversight by their providers",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b4q3",
+          "text": "According to the document, what FCA standard must firms it authorises apply when providing free information about investing?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document states the FCA's rules say investment platforms and other firms it authorises must make sure that this information is 'clear, fair and not misleading.'",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "Clear, fair and not misleading",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Optimised, persuasive and engaging",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Brief, anonymous and uncited",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "AI-generated, real-time and predictive",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b4q4",
+          "text": "Under what circumstances does the document say a regulated firm's AI tool could trigger FOS and FSCS eligibility for the user?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document states that if a firm the FCA regulates launched its own AI tool or chatbot to help provide regulated financial advice, you could be eligible for FOS and FSCS protection.",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            {
+              "id": "a",
+              "text": "Whenever any AI tool, regulated or not, gives you investment information",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "When a regulated firm launches its own AI tool or chatbot to help provide regulated financial advice",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Only when the user holds more than the FSCS limit",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Only after the AI tool publishes its training data",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b4q5",
+          "text": "Which AI tools does the document explicitly describe as 'general-purpose'? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document names ChatGPT and Gemini as 'general-purpose' AI tools and later names ChatGPT and Copilot when discussing tools whose information is not regulated by the FCA.",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            { "id": "a", "text": "ChatGPT", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "Gemini", "isCorrect": true, "sortOrder": 2 },
+            { "id": "c", "text": "Copilot", "isCorrect": true, "sortOrder": 3 },
+            {
+              "id": "d",
+              "text": "An FCA-authorised adviser's compliance system",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b4q6",
+          "text": "Which non-AI sources of investing information does the document specifically signpost? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document signposts the MoneyHelper investing guide, the FCA's other InvestSmart pages, and information from investment platforms and other firms the FCA authorises (which must be clear, fair and not misleading).",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            {
+              "id": "a",
+              "text": "MoneyHelper's investing guide",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Other InvestSmart pages",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Free information from FCA-authorised investment platforms and other firms",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Anonymous tip channels on Telegram",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b4q7",
+          "text": "Which behaviours does the document recommend when relying on AI to research investments? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document recommends always double-checking AI answers with trusted sources (especially for investment research), asking AI to provide its sources to verify with a reliable non-AI source, and using AI to guide where to dig deeper rather than as your final answer.",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            {
+              "id": "a",
+              "text": "Always double-check AI answers with trusted sources, especially for investment research",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Ask AI to provide its sources so you can verify with a reliable non-AI source",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Use AI to guide where to dig deeper, not as your final answer",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Treat any confidently-worded AI answer as automatically correct",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b4q8",
+          "text": "True or False: The document states that all AI tools are regulated.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document explicitly says: 'Not all AI tools are regulated.'",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b4q9",
+          "text": "True or False: According to the document, information from general-purpose AI tools like ChatGPT or Copilot is regulated by the FCA.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document states: 'Information from general-purpose AI tools like ChatGPT or Copilot isn't regulated by us…'",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b4q10",
+          "text": "True or False: The document advises that, when AI helps you understand the big picture, you should still verify the facts using the original source.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document concludes: 'AI can help you understand the big picture without getting lost in financial jargon but always verify the facts using the original source.'",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batch5",
+      "questions": [
+        {
+          "id": "b5q1",
+          "text": "How does the document define an AI 'hallucination'?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document states hallucinations happen 'when AI misinterprets information or fills in the blanks with things that sound right but aren't true.'",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "When AI deliberately deceives the user under instruction from its provider",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "When AI misinterprets information or fills in the blanks with things that sound right but aren't true",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "When AI refuses to answer a regulated finance question",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "When AI cites the FCA Handbook in error",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b5q2",
+          "text": "According to the document, why are AI hallucinations especially problematic for investment research?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document warns that AI 'sounds confident, which makes it seem genuine,' creating a real problem when researching an investment.",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            {
+              "id": "a",
+              "text": "Because AI is required to mark its answers as 'unverified'",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Because AI sounds confident, which makes it seem genuine even when it is wrong",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Because the FCA prohibits AI from referencing investments",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Because AI never repeats an incorrect answer twice",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b5q3",
+          "text": "What does the document say about how up-to-date AI content tends to be?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document states AI 'doesn't always give up to date content. A lot of what it's trained on can be outdated, so it's important to do your own research and double-check any facts or data it provides.'",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "It is always real-time and current",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "A lot of what it is trained on can be outdated, so users should double-check facts and data",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "It is required by law to be refreshed daily",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "It is updated only when the FCA approves new datasets",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b5q4",
+          "text": "According to the document's pro tip, AI is best used to highlight which element so the user can focus their own research?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document's pro tip says to ask AI to 'highlight the \"what\" so you can focus your attention and research on the \"why\" and \"how\".'",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            {
+              "id": "a",
+              "text": "The 'who'",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "The 'what', so the user can focus on the 'why' and 'how'",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "The 'when'",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "The price chart and nothing else",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b5q5",
+          "text": "Which of the following are listed in the document as positives of using AI for investment research? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document lists: AI can summarise complex topics into easier language; it can make research more time-efficient and help cast a wide net by scanning websites; it can summarise complex investment reports into a few key points.",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "Summarising complex topics into easier-to-understand language",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Making research more time-efficient by casting a wide net across websites",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Summarising complex investment reports into a few key points",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Guaranteeing the accuracy of every output",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b5q6",
+          "text": "Which of the following are listed in the document as negatives of using AI for investment research? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document lists: AI can provide incorrect information ('hallucinations'); AI sounds confident, making the wrong answers seem genuine; and AI does not always give up-to-date content because its training data can be outdated.",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            {
+              "id": "a",
+              "text": "It can produce incorrect 'hallucinated' information",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "It sounds confident, which can make wrong answers seem genuine",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "It can be trained on outdated content",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "It is automatically protected by the FSCS",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b5q7",
+          "text": "Which mitigations does the document specifically suggest for AI's information limitations? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document recommends asking AI to provide its sources so users can double-check using a reliable non-AI source; doing your own research and double-checking any facts or data; and verifying facts using the original source.",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            {
+              "id": "a",
+              "text": "Asking AI for its sources to cross-check with a reliable non-AI source",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Doing your own research and double-checking any facts or data AI provides",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Verifying facts using the original source",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Treating AI as a substitute for putting in your own effort",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b5q8",
+          "text": "True or False: The document warns that AI sometimes provides information that is just incorrect.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document explicitly states: 'Sometimes AI provides information that's just incorrect. These are known as \"hallucinations\".'",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b5q9",
+          "text": "True or False: According to the document, AI can summarise complex investment reports into a few key points, which can help when starting out or wanting a quick overview.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document explicitly says AI can summarise complex investment reports into a few key points and that this 'can help make the information easier to digest, especially if you're just starting out or want a quick overview.'",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b5q10",
+          "text": "True or False: The document advises that AI should be used as a final answer for any investment decision.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document says the opposite: 'Use AI to guide you where to dig deeper, not as your final answer.'",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batch6",
+      "questions": [
+        {
+          "id": "b6q1",
+          "text": "Under what conditions does the document say a person may benefit from FSCS or FOS protection?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document states: 'You may benefit from protection through the FSCS or FOS if you receive regulated financial advice.'",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "When the person uses any AI tool to research investments",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "When the person receives regulated financial advice",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Whenever the person buys an investment through social media",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Only when the investment guarantees a return",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b6q2",
+          "text": "What does the document say FSCS / FOS protection is intended to help with?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document states the protections are there 'to help if you receive bad advice from an authorised financial advisor that causes you harm.'",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            {
+              "id": "a",
+              "text": "Reimbursing any investment loss for any reason",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Helping where you receive bad advice from an authorised financial advisor that causes you harm",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Compensating users of unregulated AI tools",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Providing automatic refunds for any pump-and-dump exposure",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b6q3",
+          "text": "According to the document, does poor performance of an investment alone qualify a person for FSCS or FOS protection?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document explicitly clarifies: 'though you won't qualify just because your investments perform badly.'",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "Yes — any investment loss triggers protection",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "No — you won't qualify just because your investments perform badly",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Only if the loss exceeds a stated FCA threshold",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Only if the investment was researched using AI",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b6q4",
+          "text": "If a user receives investment information solely from a general-purpose AI tool, what does the document say about FSCS / FOS eligibility?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document says: 'We don't regulate advice provided by general-purpose AI tools, this means that you won't be eligible for protections from the FSCS or FOS.'",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            {
+              "id": "a",
+              "text": "The user is automatically eligible for FSCS and FOS protection",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "The user will not be eligible for FSCS or FOS protection",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Eligibility depends on the size of the investment",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Eligibility is decided by the AI provider",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b6q5",
+          "text": "Which statements about FSCS / FOS protection are explicitly supported by the document? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "Supported statements: protection may apply if you receive regulated financial advice; the protection is for harm caused by bad advice from an authorised financial advisor; you do not qualify just because investments perform badly.",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "Protection may apply when you receive regulated financial advice",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Protection helps where bad advice from an authorised adviser causes harm",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "You do not qualify simply because your investments perform badly",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Protection automatically applies to outputs of general-purpose AI tools",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b6q6",
+          "text": "According to the document, which AI products are unlikely to attract FSCS / FOS protection in the way regulated advice does? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document specifically names ChatGPT, Gemini and Copilot as general-purpose tools whose advice is not regulated by the FCA, and so users won't be eligible for FSCS or FOS protection in respect of their outputs.",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            { "id": "a", "text": "ChatGPT", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "Gemini", "isCorrect": true, "sortOrder": 2 },
+            { "id": "c", "text": "Copilot", "isCorrect": true, "sortOrder": 3 },
+            {
+              "id": "d",
+              "text": "An AI chatbot launched by a regulated firm to provide regulated financial advice",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b6q7",
+          "text": "Which protections does the document say a regulated firm's AI tool used to provide regulated financial advice could make a user eligible for? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document states a user could be eligible for both FOS and FSCS protection if a regulated firm launched its own AI tool or chatbot to help provide regulated financial advice.",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            {
+              "id": "a",
+              "text": "Financial Ombudsman Service (FOS)",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Financial Services Compensation Scheme (FSCS)",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Action Fraud reimbursement",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "An automatic refund from the AI provider",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b6q8",
+          "text": "True or False: The document indicates the FSCS has an explainer video and information on whether you'd be protected.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document explicitly notes that the FSCS has an explainer video and information on whether you'd be protected.",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b6q9",
+          "text": "True or False: According to the document, advice provided by general-purpose AI tools is regulated by the FCA in the same way as advice from an authorised professional adviser.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document explicitly says general-purpose tools are 'not regulated by us in the way that regulated financial advice from an authorised professional adviser is.'",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b6q10",
+          "text": "True or False: The document states that FSCS / FOS protection automatically reimburses any losses arising from poor investment performance.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document explicitly says you 'won't qualify just because your investments perform badly' — protection is targeted at harm caused by bad advice from an authorised financial advisor.",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batch7",
+      "questions": [
+        {
+          "id": "b7q1",
+          "text": "In the MythBusters section, what is the document's response to: 'Can I use AI to predict market crashes?'",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document answers 'No, AI is analytical not psychic. AI can help you understand historical patterns and warning signs (like volatility), but it cannot predict the future or sudden, unexpected events.'",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "Yes, AI can reliably predict the timing of market crashes",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "No — AI is analytical, not psychic, and cannot predict the future or sudden unexpected events",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Yes, but only in regulated jurisdictions",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Yes, if combined with a paid investment subscription",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b7q2",
+          "text": "How does the document answer: 'Can I use AI to get rich quickly?'",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document states 'No. There's no shortcut to guaranteed returns. If AI suggests an investment strategy is a 'sure thing', or a tool promises guaranteed fast returns, that's a red flag. If it sounds too good to be true, then it probably is.'",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            {
+              "id": "a",
+              "text": "Yes — AI is the most efficient route to guaranteed returns",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "No — there is no shortcut to guaranteed returns; promises of 'sure things' or guaranteed fast returns are red flags",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Yes — provided the AI is FCA-authorised",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Only when used inside an exclusive group chat",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b7q3",
+          "text": "What analogy does the document use to describe how AI compares to a human in research?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document compares AI to 'a workout supplement, not something that does all the work for you. It can support your efforts, but it's no substitute for putting in the effort.'",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "A workout supplement that supports effort but does not replace it",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "A trained personal financial adviser",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "A guaranteed substitute for human research",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "An FCA-authorised market maker",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b7q4",
+          "text": "What does the document say AI can do when asked whether it can help identify risks in an investment?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document states AI 'can analyse data to help you identify risks based on the past performance of an investment, which may help you make an informed decision' — while also noting AI can be incorrect and cannot predict future performance.",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            {
+              "id": "a",
+              "text": "It can analyse data to help identify risks based on the past performance of an investment",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "It can guarantee that all future risks have been disclosed",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "It is required to refuse risk-related questions",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "It can predict the next price movement with certainty",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b7q5",
+          "text": "Which capabilities does the document attribute to AI as a learning tool for investing? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document says AI can help you understand technical language, break down information, and highlight some of the benefits of investing — making it a great learning tool, but not your only source.",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "Helping the user understand technical language",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Breaking down information",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Highlighting some of the benefits of investing",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Acting as the user's only source of information",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b7q6",
+          "text": "Which limitations of AI accuracy are explicitly identified in the MythBusters section? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The MythBusters section says AI can sometimes provide outdated or inaccurate information, especially if it doesn't have access to real-time market data, and that AI may 'hallucinate', making up facts or misinterpreting data.",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            {
+              "id": "a",
+              "text": "AI can provide outdated information",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "AI can provide inaccurate information, especially without real-time market data",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "AI may 'hallucinate', making up facts or misinterpreting data",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "AI is always more current than human researchers",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b7q7",
+          "text": "Which warning signs are referenced when AI suggests an investment strategy? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document warns that an AI suggesting a strategy is a 'sure thing', or a tool promising guaranteed fast returns, are red flags, and that 'if it sounds too good to be true, then it probably is.'",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            {
+              "id": "a",
+              "text": "AI describing a strategy as a 'sure thing'",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Promises of guaranteed fast returns",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Pitches that sound too good to be true",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "AI prompting you to verify with multiple sources",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b7q8",
+          "text": "True or False: According to the document, everything AI says about investing is accurate and up to date.",
+          "type": "TRUE_FALSE",
+          "explanation": "The MythBusters section says 'Not always. AI can sometimes provide outdated or inaccurate information…'",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b7q9",
+          "text": "True or False: The document states that, while AI can support research, it should not replace digging into the details yourself.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document states 'AI can help you learn more, but it shouldn't replace digging into the details yourself.'",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b7q10",
+          "text": "True or False: According to the document, AI can predict sudden, unexpected market events.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document explicitly says AI 'cannot predict the future or sudden, unexpected events.'",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batch8",
+      "questions": [
+        {
+          "id": "b8q1",
+          "text": "How does the document define a 'pump and dump' scheme?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document states it is 'a form of market manipulation. It's a two-part act designed to mislead investors and generate profits for the perpetrators at the expense of unsuspecting investors.'",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "A form of market manipulation designed to mislead investors and profit perpetrators at unsuspecting investors' expense",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "A regulated short-selling strategy",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "A passive long-term investment strategy",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "An FCA-approved market-making technique",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b8q2",
+          "text": "What does the 'pump' refer to in the scheme described?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document explains promoters first spread false or misleading positive information to encourage investors to buy, inflating the share price — this inflation is referred to as the 'pump'.",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            {
+              "id": "a",
+              "text": "Promoters quickly selling their shares at the inflated price",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Promoters spreading false or misleading positive information that inflates the share price",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "An FCA-approved liquidity injection by the issuer",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "A reduction in market volatility caused by hype",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b8q3",
+          "text": "What does the 'dump' refer to in the scheme described?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document states that once the price rises, 'the promoters quickly sell their shares at the inflated price. This is referred to as the \"dump\" and it causes the shares to decrease in price leaving other investors with losses.'",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "Promoters quickly selling their shares at the inflated price, causing the shares to decrease and leaving other investors with losses",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "A regulator-mandated suspension of trading",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Promoters buying additional shares at retail prices",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Investors filing complaints with the ombudsman",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b8q4",
+          "text": "According to the document, what penalties may apply if someone is found guilty of pump-and-dump market manipulation?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document states that if someone is found guilty, 'they can face severe penalties including fines and even imprisonment.'",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            {
+              "id": "a",
+              "text": "A formal warning letter only",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Severe penalties including fines and even imprisonment",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Mandatory disclosure but no enforcement action",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Loss of access to general-purpose AI tools",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b8q5",
+          "text": "Which behaviours does the document identify as illegal in this context? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document states it is illegal to manipulate markets and to invest based on inside information, and explicitly includes pump-and-dump schemes that artificially inflate an investment for personal gain.",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "Manipulating markets",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Investing based on inside information",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Operating a pump-and-dump scheme that artificially inflates an investment for personal gain",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Researching an investment via the FCA Firm Checker",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b8q6",
+          "text": "Which descriptions of the mechanics of a pump and dump are explicitly supported by the document? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "Supported: it is a two-part act; promoters first spread false or misleading positive information to encourage investors to buy; once the price rises, promoters sell their shares at the inflated price, leaving other investors with losses.",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            {
+              "id": "a",
+              "text": "It is described as a two-part act",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Promoters first spread false or misleading positive information about the investment",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Promoters then sell at the inflated price, leaving other investors with losses",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "The scheme is regulated as an authorised market activity",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b8q7",
+          "text": "Which markets does the document say pump-and-dump activity has been seen in? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document explicitly references stock markets (where individual company share prices can be pushed up via social media hype) and the crypto world (new coins or tokens), and notes meme coins as a recent example.",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            {
+              "id": "a",
+              "text": "Stock markets, where individual company share prices can be pushed up via social media hype",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Crypto markets, where new coins or tokens can attract attention overnight",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Meme coins as a recent example",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "FCA-authorised pension default funds",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b8q8",
+          "text": "True or False: The document states that pump and dump is a form of market manipulation.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document explicitly says: 'A pump and dump scheme is a form of market manipulation.'",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b8q9",
+          "text": "True or False: According to the document, pump-and-dump schemes are limited to low-value stocks and shares.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document explicitly says: 'Pump and dump schemes are not limited to low value stocks and shares.' It cites meme coins as a further example.",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b8q10",
+          "text": "True or False: The document states that investing based on inside information is legal provided the investor was unaware of the source.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document plainly states: 'It's illegal to manipulate markets or invest based on inside information.' No carve-out is provided.",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batch9",
+      "questions": [
+        {
+          "id": "b9q1",
+          "text": "What growing trend does the document identify as a way pump-and-dump promoters approach potential investors?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document identifies as a growing trend the use of AI-generated videos, or deepfakes, that impersonate public figures or well-known personalities to endorse an investment.",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "Door-to-door brochures from FCA-authorised advisers",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "AI-generated videos or deepfakes impersonating public figures or well-known personalities",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Newspaper classified ads",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Letters from MoneyHelper",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b9q2",
+          "text": "Why do organisers use encrypted group chats, according to the document?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document says these chats are used to make their operations seem exclusive or secretive, but in reality these are simply tactics to lure investors in.",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            {
+              "id": "a",
+              "text": "To make operations seem exclusive or secretive — a tactic to lure investors in",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "To submit regulated suitability assessments",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "To distribute audited financial statements",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "To verify each member's FCA authorisation",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b9q3",
+          "text": "What does the document advise if you suspect an investment is part of a pump-and-dump scheme but think you can 'outsmart' it?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document warns: 'Even if you suspect it's a pump and dump scheme, try not to get caught up in trying to outsmart the scheme. You can't predict when the investment will be dumped, and you could lose all the money you've invested.'",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "Try to time the dump and sell ahead of the promoters",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Don't try to outsmart it — you can't predict the dump and could lose all your investment",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Borrow extra capital to maximise returns",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Stay in the group chat and wait for confirmation from a moderator",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b9q4",
+          "text": "Which feature of the crypto market does the document highlight as relevant to pump-and-dump risk?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document notes new coins or tokens can attract attention almost overnight through viral content and memes, along with the big and fast price changes that are common in crypto markets.",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            {
+              "id": "a",
+              "text": "Big and fast price changes that are common in crypto markets",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Mandatory FCA pre-listing approval for every coin",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Stable, slow-moving prices for all crypto assets",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Universal FSCS coverage for tokens",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b9q5",
+          "text": "Which channels does the document name as messaging apps used by pump-and-dump organisers? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document explicitly names group chats on WhatsApp, Telegram and Discord as messaging apps sometimes used by pump-and-dump organisers.",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "WhatsApp",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Telegram",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            { "id": "c", "text": "Discord", "isCorrect": true, "sortOrder": 3 },
+            {
+              "id": "d",
+              "text": "MoneyHelper",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b9q6",
+          "text": "What does the document say about deepfake adverts or videos in this context? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document warns these adverts/videos may impersonate trusted financial experts, influencers or TV personalities; they are often fake; and they are designed to build credibility and urgency to rush the viewer into investing.",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            {
+              "id": "a",
+              "text": "They may impersonate trusted financial experts, influencers or TV personalities",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "They are often fake",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "They are designed to build credibility and urgency to rush you into investing",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "They are independently verified by the FCA",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b9q7",
+          "text": "Which signals does the document tell readers to be wary of in group chats? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document warns about: chats filled with people you've never met; conversations focused on 'hot tips' or pressure to buy a particular investment; advice or recommended investments from people you don't know.",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            {
+              "id": "a",
+              "text": "Being added to chats filled with people you've never met",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Conversations focused on 'hot tips' or pressure to buy a particular investment",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Advice or recommended investments from people you don't know",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Polite invitations to verify advisers via the FCA Firm Checker",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b9q8",
+          "text": "True or False: According to the document, anyone encouraging you to invest under time pressure should be treated with caution.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document explicitly states: 'It's important to be wary of anyone encouraging you to invest under time pressure.'",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b9q9",
+          "text": "True or False: The document states you can check whether someone claiming to be a financial adviser is authorised by searching them on the FCA Firm Checker.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document explicitly states: 'If someone claims to be a financial adviser or is offering investment advice, you can check whether they're authorised by searching them on the FCA Firm Checker.'",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b9q10",
+          "text": "True or False: According to the document, encrypted group-chat invitations to 'exclusive' investment opportunities are a normal sign of due-diligence by issuers.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document treats such chats as a tactic to lure investors in, not as a sign of due-diligence by issuers.",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batch10",
+      "questions": [
+        {
+          "id": "b10q1",
+          "text": "If a stock price has been static or declining and then suddenly increases without any clear reason, what does the document advise?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document advises that, in this scenario, you should be cautious — and that a rapid, dramatic increase without news from reliable sources, reports or major announcements is a huge red flag.",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "Buy quickly to capture momentum",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Be cautious — it is a red flag and warrants research into what is driving the inflation",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Wait for a deepfake video before deciding",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Treat the rise as a guarantee of further gains",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b10q2",
+          "text": "How does the document characterise promises of guaranteed, risk-free or extremely high returns?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document states 'Any promise of guaranteed, risk-free, or extremely high returns should be treated with suspicion. Markets never offer certainty, and returns aren't guaranteed.'",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            {
+              "id": "a",
+              "text": "They should be treated with suspicion; markets never offer certainty and returns aren't guaranteed",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "They are normal in regulated markets",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "They are confirmed when shared in group chats",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "They are required disclosures by FCA-authorised firms",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b10q3",
+          "text": "If you suspect a group chat is pressuring you into a pump-and-dump, what reporting channel does the document name?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document explicitly states you can report the chat to Action Fraud.",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "Action Fraud",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "MoneyHelper",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "FSCS only",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "FOS only",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b10q4",
+          "text": "According to the document, can investing through a regulated trading platform protect you from total loss if the investment turns out to be a pump-and-dump?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "The document explicitly says: 'You could lose all the money you've invested, even if it was through a regulated trading platform.'",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            {
+              "id": "a",
+              "text": "Yes — losses are automatically reimbursed by the platform",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "No — you could lose all the money you've invested, even via a regulated trading platform",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Only if the platform has not issued a disclaimer",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Only if the investment is denominated in crypto",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b10q5",
+          "text": "Which actions does the document suggest if you suspect an investment is a pump-and-dump scheme? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document recommends doing your own research using reliable sources rather than relying on group chats or social media; paying attention to sudden price jumps and trying to understand what is driving them; and not letting FOMO take over (it is fine to leave a chat that feels rushed or 'not right').",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "Verify information through reliable sources rather than group chats or social media",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Pay attention to sudden price jumps and try to understand what is driving them",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Don't let FOMO take over — leave the chat if it feels rushed or not right",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Increase the size of your position to recover faster",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b10q6",
+          "text": "Which traits does the document associate with manipulative pump-and-dump group chats? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "The document says these chats usually pressure members to 'act now', post screenshots of big wins that don't look genuine, and shut down anyone who asks questions.",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            {
+              "id": "a",
+              "text": "Pressure to 'act now'",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Posting screenshots of big wins that don't look genuine",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Shutting down anyone who asks questions",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Encouraging open challenge of the recommended trade",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b10q7",
+          "text": "Which classes of red flag does the document specifically associate with possible pump-and-dump activity? (Multiple answers may be correct.)",
+          "type": "MULTI_CHOICE",
+          "explanation": "Explicit red flags listed: rapid and dramatic price increases without news from reliable sources, reports or major announcements; promises of guaranteed, risk-free or extremely high returns; investment advice from people you don't know in unsolicited group chats focused on 'hot tips'.",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            {
+              "id": "a",
+              "text": "Rapid, dramatic price increases without supporting news, reports or announcements",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Promises of guaranteed, risk-free or extremely high returns",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Unsolicited 'hot tips' from strangers in group chats",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Authorised firm communications that are clear, fair and not misleading",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b10q8",
+          "text": "True or False: The document states you should rely on information shared in group chats or on social media to verify whether an investment is genuine.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document advises the opposite: 'Check reliable sources to verify information, rather than relying on what's being shared in group chats or on social media.'",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b10q9",
+          "text": "True or False: According to the document, the volatility and fast-paced nature of internet culture could lead to a devastating loss for investors caught up in hype.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document explicitly states: 'The volatility and the fast-paced nature of Internet culture could lead to a devastating loss for investors who have been caught up in the hype and invested, only to see the price drop near-instantly.'",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b10q10",
+          "text": "True or False: The document indicates it is acceptable to leave a group chat if it feels rushed or doesn't sit well with you.",
+          "type": "TRUE_FALSE",
+          "explanation": "The document explicitly states: 'If a group chat feels rushed or just not right, it's totally fine to leave.'",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        }
+      ]
+    }
+  ]
+}

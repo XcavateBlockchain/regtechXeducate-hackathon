@@ -1,0 +1,2508 @@
+{
+  "batches": [
+    {
+      "id": "batch1",
+      "questions": [
+        {
+          "id": "b1q1",
+          "text": "Which UK regulator published Feedback Statement FS19/2 'A duty of care and potential alternative approaches'?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "FS19/2 was published by the Financial Conduct Authority (FCA) in April 2019.",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "Prudential Regulation Authority (PRA)",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Financial Conduct Authority (FCA)",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "HM Treasury",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Financial Ombudsman Service",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b1q2",
+          "text": "FS19/2 is a Feedback Statement that summarises responses to Discussion Paper DP18/5.",
+          "type": "TRUE_FALSE",
+          "explanation": "The cover of FS19/2 explicitly states it relates to DP18/5, the original Discussion Paper on a duty of care.",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b1q3",
+          "text": "What does the abbreviation 'SM&CR' stand for in FS19/2?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Annex 1 of FS19/2 defines SM&CR as the Senior Managers and Certification Regime.",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "Senior Managers and Compliance Regime",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Supervisory Management and Conduct Rules",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Senior Managers and Certification Regime",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Standards, Monitoring and Compliance Review",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b1q4",
+          "text": "Which existing FCA Principle is associated with 'Treating Customers Fairly' (TCF)?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "FS19/2 repeatedly identifies Principle 6 as the Principle dealing with Treating Customers Fairly (TCF).",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            {
+              "id": "a",
+              "text": "Principle 2",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Principle 4",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Principle 6",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Principle 8",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b1q5",
+          "text": "In FS19/2, the FCA uses the term 'New Duty' to encompass both a duty of care and any alternative approaches considered.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 1.5 explicitly states the term 'New Duty' was used to cover a duty of care and any alternative approaches.",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b1q6",
+          "text": "Which FCA Principle covers 'Due skill, care and diligence' as referenced by respondents in FS19/2?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.6 cites Principle 2 (Due skill, care and diligence) as one of the existing Principles respondents pointed to.",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            {
+              "id": "a",
+              "text": "Principle 2",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Principle 6",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Principle 8",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Principle 11",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b1q7",
+          "text": "Which FCA Principle is identified in FS19/2 as addressing 'Conflicts of interest'?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.6 explicitly identifies Principle 8 (Conflicts of interest).",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            {
+              "id": "a",
+              "text": "Principle 2",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Principle 6",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Principle 8",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Principle 12",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b1q8",
+          "text": "Which statutory provision governs the balance between firm and consumer responsibility, as referenced in FS19/2?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 1.2 explicitly cites section 1C(2)(d) of the Financial Services and Markets Act 2000.",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            {
+              "id": "a",
+              "text": "Section 1C(2)(d) of FSMA 2000",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Section 19 of FSMA 2000",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Section 138D of FSMA 2000",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Section 404 of FSMA 2000",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b1q9",
+          "text": "FS19/2 was published as part of the FCA's commitment to keep its powers and tools under review to protect consumers.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 1.2 confirms the Discussion Paper, and consequently FS19/2, formed part of that commitment described in the Approach to Consumers paper.",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b1q10",
+          "text": "Which of the following is identified in FS19/2 as a stakeholder group likely to be interested in the feedback?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 1.1 lists consumer groups, individual consumers, industry groups/trade bodies, regulated firms, policy makers, industry experts, academics and think tanks as interested parties.",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            {
+              "id": "a",
+              "text": "International credit rating agencies",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Regulated firms",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Foreign central banks",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Tax authorities outside the UK",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batch2",
+      "questions": [
+        {
+          "id": "b2q1",
+          "text": "According to FS19/2, what was the prevailing view of most respondents regarding consumer harm in financial services?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 1.9 and 2.2 state that most respondents considered consumer harm to be unacceptably high and that change is needed.",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "Consumer harm levels are negligible and well-managed",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Consumer harm is unacceptably high and change is needed",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Consumer harm has been entirely eliminated by SM&CR",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Consumer harm levels could not be assessed",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b2q2",
+          "text": "All respondents to DP18/5 agreed that significant regulatory change was urgently needed.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraphs 1.10 and 2.4 note that a few stakeholders argued there was no case for change, citing initiatives like SM&CR that needed time to bed in.",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b2q3",
+          "text": "Which of the following recent FCA initiatives did some stakeholders argue should be allowed to bed in before evaluating any need for further change?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 2.4 cites the SM&CR, work on high-cost credit and the Fair Pricing discussion paper as initiatives needing time to embed.",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "MiFID II implementation review",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "GDPR enforcement programme",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Senior Managers and Certification Regime (SM&CR)",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Anti-Money Laundering Directive 5",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b2q4",
+          "text": "Stakeholders arguing 'no case for change' typically supported their position with extensive new evidence.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 2.4 explicitly notes that 'very few stakeholders making this argument pointed to evidence to support it'.",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b2q5",
+          "text": "Which of the following was cited in FS19/2 as a current FCA focus area pointing to high consumer harm levels?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 2.3 lists fair pricing, high-cost credit, cash savings, mortgages and pensions as focus areas indicating high harm.",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "Crypto-asset taxation",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "High-cost credit",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "International trade finance",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Securities lending",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b2q6",
+          "text": "FS19/2 acknowledges that many responses on consumer harm were based on assumption or experience rather than wider evidence.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 2.3 explicitly states many responses were based on an assumption of consumer harm or stakeholders' experience and not on wider sources of evidence.",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b2q7",
+          "text": "What method does the FCA say it will use to assess whether and how change could be effective?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 2.1 states the FCA will map evidence of consumer harm and test the options for change against that evidence.",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            {
+              "id": "a",
+              "text": "Wait for industry to self-report breaches",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Map evidence of consumer harm and test the options for change against that evidence",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Defer entirely to the Financial Ombudsman Service's case statistics",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Conduct a public referendum on a New Duty",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b2q8",
+          "text": "Which of the following is the FCA's relevant statutory objective referenced in FS19/2 in connection with the consultation?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 1.2 references the FCA's statutory objective to secure an appropriate degree of protection for consumers.",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            {
+              "id": "a",
+              "text": "Maximising firm profitability",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Securing an appropriate degree of protection for consumers",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Increasing UK GDP through financial services",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Negotiating EU equivalence agreements",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b2q9",
+          "text": "According to FS19/2, the FCA must balance consumer protection against its other objectives of effective competition and enhancing market integrity.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 6.1 explicitly mentions balancing consumer protection against the FCA's other objectives to promote effective competition and enhance market integrity.",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b2q10",
+          "text": "Which statement best characterises the FCA's stated intent behind the original Discussion Paper (DP18/5)?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 1.4 states the FCA framed questions widely to invite views beyond the binary question of whether a duty of care is needed, in order to deepen its understanding of the issues.",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            {
+              "id": "a",
+              "text": "To impose a duty of care immediately by rule change",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "To invite an open discussion on the merits of a duty of care and alternative approaches",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "To replace the Principles for Businesses with a single rulebook",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "To remove consumer responsibility from FSMA 2000",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batch3",
+      "questions": [
+        {
+          "id": "b3q1",
+          "text": "Which cultural shift do supporters of a New Duty say it would trigger within firms?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraphs 1.13 and 3.3 describe the desired cultural shift from firms asking 'is this within the rules?' to 'is this right?'.",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "From 'is this profitable?' to 'is this within the rules?'",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "From 'is this within the rules?' to 'is this right?'",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "From 'is this auditable?' to 'is this disclosed?'",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "From 'is this competitive?' to 'is this profitable?'",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b3q2",
+          "text": "Supporters of a New Duty argue it would only affect frontline service delivery and not business model design.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 3.3 states supporters say a New Duty would influence decision-making at every level, from business model development through product design to frontline service delivery.",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b3q3",
+          "text": "According to supporters, a New Duty would act as a 'baseline' against which the FCA could take action in cases of:",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 1.13 and 3.3 describe a New Duty as a baseline for action in cases of new and emerging harms not captured by existing rules.",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "Tax avoidance schemes",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "New and emerging harms not captured by existing rules",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Routine reporting deficiencies only",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "International sanctions breaches",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b3q4",
+          "text": "Supporters of a New Duty believe an explicit obligation to avoid harm is currently missing from the Principles.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 3.3 (Emphasis on prevention) states supporters believe an explicit obligation to avoid harm is currently missing from the Principles.",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b3q5",
+          "text": "Which of the following is NOT one of the four main themes supporters cited in favour of a New Duty?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.3 lists culture change, regulatory clarity, emphasis on prevention, and clarity for consumers and firms. Capital adequacy improvement is not listed.",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "Culture change",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Capital adequacy improvement",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Regulatory clarity",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Emphasis on prevention",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b3q6",
+          "text": "Which outcome did supporters say a duty placing emphasis on harm prevention would deliver?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.3 lists improved product and service design, business models with consumer interests at their heart, and regular re-evaluation of consumer needs.",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            {
+              "id": "a",
+              "text": "Reduced disclosures to consumers",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Regular re-evaluation by firms of consumers' needs across the customer journey",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Higher dividend payouts",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Faster product launches without testing",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b3q7",
+          "text": "Supporters argue a New Duty would create clarity for consumers about the standard of care they can expect from firms.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraphs 1.13 and 3.3 say supporters believe a New Duty would create clarity for consumers about the standard of care they can expect and demand of firms.",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b3q8",
+          "text": "How do supporters describe the conduct that a New Duty's 'baseline' role would help capture?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.3 describes such conduct as 'legal, but not right'.",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            {
+              "id": "a",
+              "text": "Conduct that is illegal under criminal law",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Conduct that is 'legal, but not right'",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Conduct expressly prohibited by SM&CR",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Conduct that is technical only and not consumer-facing",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b3q9",
+          "text": "Supporters of a New Duty believe it could help rebuild consumer trust in some financial services sectors.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraphs 1.13 and 3.14 indicate supporters see a New Duty as vital to rebuilding consumer trust.",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b3q10",
+          "text": "What overarching benefit do supporters say a single legislative provision or Principle on care would provide?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.3 ('Clarity for consumers and firms') states that an overarching concept of care set out in a single provision or Principle would create clarity that is currently lost amid a proliferation of rules.",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            {
+              "id": "a",
+              "text": "Eliminating the need for any FCA supervision",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Creating clarity that is currently lost amid a proliferation of rules",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Reducing the FCA's enforcement powers",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Replacing the Financial Ombudsman Service",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batch4",
+      "questions": [
+        {
+          "id": "b4q1",
+          "text": "What was the principal argument given against introducing a New Duty of any kind?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraphs 1.14 and 3.4 state that the principal argument against a New Duty centred on the SM&CR being expected to deliver significant cultural change.",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "GDPR overlap concerns",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "The SM&CR is already expected to bring significant cultural change",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Lack of FCA enforcement powers",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Consumer apathy towards regulation",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b4q2",
+          "text": "Many opponents felt that the combination of existing Principles, rules, guidance and SM&CR already amounts to a sufficiently robust duty on firms.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraphs 1.14 and 3.5 state opponents felt these combined elements already amount to a sufficiently robust duty.",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b4q3",
+          "text": "Which existing requirement, applying in some sectors, did opponents cite as removing the need for a New Duty?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.6 explicitly cites the 'client's best interests' requirement that already applies in some sectors.",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "Best execution requirement only",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "The 'client's best interests' requirement already applying in some sectors",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Capital buffer requirement",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Whistleblowing duty",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b4q4",
+          "text": "Opponents of a New Duty argued that the most effective and proportionate way to reduce consumer harm was through targeted FCA interventions aimed at specific risks.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 3.5 explicitly states opponents preferred targeted interventions aimed at specific risks as identified.",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b4q5",
+          "text": "What is one of the key concerns raised about layering a New Duty on top of the existing framework of Principles, rules and guidance?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.16 cites duplication with existing obligations and resulting legal complexity and confusion as a major concern.",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "Duplication of existing obligations and legal complexity/confusion",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Reduction in FCA staffing levels",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Increased deposit insurance costs",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Removal of consumer responsibility entirely",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b4q6",
+          "text": "Concerns about a statutory duty included that the pace of court precedent could undermine the FCA's regulatory agility.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraphs 1.17 and 3.16 explain that respondents feared the pace of court interpretation would slow FCA flexibility and responsiveness, harming regulatory agility.",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b4q7",
+          "text": "Which group of respondents expressed concerns that a New Duty could lead firms to reduce access to higher-risk consumers?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.16 (Restriction of competition, innovation and access) reports that firms and trade bodies argued firms could pull out of certain markets or refuse services for groups perceived as too risky.",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            {
+              "id": "a",
+              "text": "Firms and trade bodies",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Academics only",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Foreign regulators",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Tax practitioners",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b4q8",
+          "text": "Some respondents argued that a statutory duty would have little or no additional deterrent effect on firms that already fail to comply with current standards.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraphs 1.17 and 3.16 note the concern that firms already non-compliant would not be deterred further by a statutory duty.",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b4q9",
+          "text": "What concern did respondents express specifically about implementation of a statutory duty?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.16 (Legal uncertainty and delay) cites difficulties of implementation, particularly in training front-line staff.",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            {
+              "id": "a",
+              "text": "Difficulties in training front-line staff",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Need to redesign accounting standards",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Replacement of all branch managers",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Mandatory translation into multiple languages",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b4q10",
+          "text": "Respondents worried that a statutory duty could create a perceived adversarial dynamic between firms and consumers.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 3.16 (Litigation not in consumers' interests) cites a perceived risk of a litigious environment making firm/consumer relationships too adversarial.",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batch5",
+      "questions": [
+        {
+          "id": "b5q1",
+          "text": "In FS19/2, what does it mean for a statutory duty of care to be 'actionable'?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraphs 1.16 and 3.13 define 'actionable' as the ability for individuals to take court action to recover losses resulting from a breach.",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "It can be enforced only by criminal courts",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Individuals can take court action to recover losses arising from a breach",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Only the FCA may take action under it",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "It applies only to wholesale market participants",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b5q2",
+          "text": "Most respondents to FS19/2 supported the introduction of a statutory duty of care, whether actionable or not.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraphs 1.16 and 3.16 state that most respondents, from across the spectrum, do not support a statutory duty.",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b5q3",
+          "text": "Which concern did respondents raise about the development of legal precedent under a statutory duty?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.16 explains concern that it could be several years before clarity is achieved on how the duty applies across firm/consumer relationships, sectors and products.",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "Precedent would develop too quickly to keep up with",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "It could take several years for clear precedent to emerge across the sector",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "EU courts would have exclusive jurisdiction",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Firms could opt out of court rulings",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b5q4",
+          "text": "Most supporters of a statutory duty acknowledged that an actionable duty would still result in only limited consumer litigation due to the cost, stress and complexity involved.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 3.15 notes that most pro-statutory-duty respondents recognised the cost, stress and complexity make widespread litigation unlikely.",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b5q5",
+          "text": "Which was identified as a perceived risk of a litigious environment for consumers under a statutory duty?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.16 lists exploitation by claims management companies as one of the perceived risks for consumers.",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "Mandatory referral to the Bank of England",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Vulnerability to exploitation by claims management companies",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Loss of access to deposit accounts",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Compulsory arbitration overseas",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b5q6",
+          "text": "Supporters of a statutory duty believe it would have a unique capacity to re-set the context in which financial services are delivered and regulated.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraphs 1.18 and 3.14 state supporters see a statutory duty as critical to re-setting the context for financial services delivery and regulation.",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b5q7",
+          "text": "Which of the following did firms and trade bodies cite as a likely commercial consequence of an actionable statutory duty of care?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.16 (Restriction of competition, innovation and access) explains firms argued the attendant litigation risk would make firms behave more cautiously, potentially reducing access and innovation.",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            {
+              "id": "a",
+              "text": "Firms behaving more cautiously, reducing access and innovation",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Mandatory dividend cuts",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Forced asset disposals overseas",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Automatic mergers among small firms",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b5q8",
+          "text": "Respondents argued litigation costs and false claims could increase compliance costs for firms.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 3.16 (Cost to firms) confirms firms and trade bodies cited litigation costs, false claims, and increased compliance costs as concerns.",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b5q9",
+          "text": "Which of the following was NOT a concern raised about a statutory duty of care in FS19/2?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Concerns listed (paragraphs 1.17 and 3.16) include legal uncertainty/delay, regulatory agility loss, cost, restriction of access/innovation, adversarial relationships and lack of deterrent effect. Replacement of the FCA's perimeter is not mentioned.",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            {
+              "id": "a",
+              "text": "Loss of regulatory agility",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Replacement of the FCA's authorisation perimeter",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Cost, delay and stress of litigation for consumers",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Consumer confusion about multiple avenues of redress",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b5q10",
+          "text": "Supporters describe a legislative duty as sitting above the rest of the regulatory and legal framework.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraphs 1.18 and 3.14 describe a statutory duty as an overarching legislative standard sitting above the rest of the legal and regulatory framework.",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batch6",
+      "questions": [
+        {
+          "id": "b6q1",
+          "text": "Why do some stakeholders argue that the Treating Customers Fairly (TCF) concept in Principle 6 has not been effective?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraphs 1.20 and 3.8 state that the concept of 'fairness' is regarded as too vague and that the FCA's application of the Principle has not been robust enough.",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "It applies only to wholesale clients",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "The concept of 'fairness' is too vague and application has not been robust enough",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "It conflicts with EU directives",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "It is enforced solely by HM Treasury",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b6q2",
+          "text": "Stakeholders supporting revisions to the Principles say that wording changes alone would be sufficient to deliver consumer protection improvements.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraphs 1.21 and 3.10 explicitly state that supporters are clear changes to words alone would not be enough; a stronger and/or renewed regulatory approach is also required.",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b6q3",
+          "text": "What concept did respondents suggest incorporating into Principle 2 (Due skill, care and diligence)?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.9 suggests Principle 2 could incorporate concepts of foreseeable harm and/or consumers' best interests.",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "A capital buffer requirement",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Foreseeable harm and/or consumers' best interests",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Mandatory branch network expansion",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Disclosure of beneficial ownership",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b6q4",
+          "text": "Which suggested change to Principle 6 was put forward by respondents?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.9 suggests Principle 6 (Customers' interests) be updated to incorporate a stricter requirement to act in consumers' best interests and/or avoid harm.",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            {
+              "id": "a",
+              "text": "A stricter requirement to act in consumers' best interests and/or avoid harm",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Removal of all references to fairness",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Restricting Principle 6 to retail banking only",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Replacing it with a code of ethics",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b6q5",
+          "text": "Respondents suggested broadening Principle 8 to capture conflicts of interest between different groups of consumers, not only between firm and consumer.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 3.9 explicitly references that suggestion regarding Principle 8.",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b6q6",
+          "text": "Principle 4 of the Principles of good regulation states that consumers should take responsibility for their decisions.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 3.11 confirms Principle 4 of the Principles of good regulation provides that consumers should take responsibility for their decisions.",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b6q7",
+          "text": "From which provision are the Principles of good regulation, including Principle 4, derived?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.11 explicitly cites section 3B(1) of the Financial Services and Markets Act 2000.",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            {
+              "id": "a",
+              "text": "Section 19 of FSMA 2000",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Section 138D of FSMA 2000",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Section 3B(1) of FSMA 2000",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Section 1C(2)(d) of FSMA 2000",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b6q8",
+          "text": "Revisions to the Principles of good regulation set out in section 3B(1) of FSMA 2000 can be made by the FCA without primary legislation.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 3.11 states explicitly that any revision of these regulatory principles would require primary legislation.",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b6q9",
+          "text": "What did some respondents propose regarding the application of the 'client's best interests' rule?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.12 states some stakeholders suggested extending a client's best interests rule across all sectors.",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            {
+              "id": "a",
+              "text": "Limiting it to investment management only",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Removing it from current sectors",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Extending it across all sectors",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Restricting it to wholesale clients",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b6q10",
+          "text": "Stakeholders suggested Principle 4 of the Principles of good regulation should apply only where firms have complied with the Principles and consumers are reasonably capable of taking responsibility.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 3.11 outlines this exact suggestion regarding Principle 4 of the Principles of good regulation.",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batch7",
+      "questions": [
+        {
+          "id": "b7q1",
+          "text": "What was the main argument respondents raised against introducing a private right of action for breaches of the Principles?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraphs 1.23 and 3.18 state opponents argued the Financial Ombudsman Service is cheaper and more consumer-friendly than litigation.",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "It would be unconstitutional under FSMA 2000",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "The Financial Ombudsman Service is a cheaper, more consumer-friendly avenue of redress than litigation",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "It would mandate FCA-funded legal aid",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "It would prevent any further consumer protection rules",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b7q2",
+          "text": "The Financial Ombudsman Service's awards are subject to a compensation limit, which is a reason cited in favour of a private right of action.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 3.19 explicitly cites the Ombudsman's compensation limit as a reason supporters gave for a private right of action.",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b7q3",
+          "text": "Which of the following arguments was put forward by supporters of a private right of action for Principles breaches?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.19 lists supporters' arguments, including that Ombudsman decisions are not easily enforced.",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "Ombudsman decisions are not easily enforced",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Litigation is faster than the Ombudsman",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Litigation eliminates legal costs entirely",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "It would replace the FCA's enforcement role",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b7q4",
+          "text": "Under which provision of FSMA 2000 could the FCA require firms to pay redress for Principles breaches if those breaches were privately actionable?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.20 references section 404 of the Financial Services and Markets Act 2000.",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            {
+              "id": "a",
+              "text": "Section 19 of FSMA 2000",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Section 138D of FSMA 2000",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Section 404 of FSMA 2000",
+              "isCorrect": true,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Section 3B(1) of FSMA 2000",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b7q5",
+          "text": "A large majority of respondents to FS19/2 commented specifically on the question of a private right of action for Principles breaches.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraphs 1.22 and 3.17 state only some/few respondents commented specifically on this question.",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b7q6",
+          "text": "Supporters of a fiduciary duty argued that it would create which of the following?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraphs 1.26 and 3.22 state supporters argued a fiduciary duty would create an explicit obligation to avoid conflicts of interest and always act in the customer's best interests.",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            {
+              "id": "a",
+              "text": "An explicit obligation to avoid conflicts and always act in the customer's best interests",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Mandatory profit-sharing with consumers",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "A statutory cap on firm earnings",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Replacement of all existing Principles",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b7q7",
+          "text": "Critics of a fiduciary duty argued that conflicts of interest in financial services cannot be avoided entirely.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 3.23 records that critics argued conflicts cannot be avoided entirely, citing examples including multi-party transactions.",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b7q8",
+          "text": "What general critique did some respondents make about the concept of a fiduciary duty?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraphs 1.26 and 3.23 explain that some respondents argued undivided loyalty to a customer is inconsistent with commercial enterprise.",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            {
+              "id": "a",
+              "text": "It would conflict with international tax treaties",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Undivided loyalty to a customer is inconsistent with commercial enterprise",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "It would override insolvency law",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "It would breach competition law automatically",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b7q9",
+          "text": "Many respondents commented specifically on whether firms should be subject to a fiduciary duty.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraphs 1.25 and 3.21 state only a few respondents commented specifically on a fiduciary duty.",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b7q10",
+          "text": "Which example did opponents give to illustrate why a fiduciary duty is unworkable in practice?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 3.23 cites multi-party transactions where a fiduciary obligation to one customer cannot be met without breaching obligations to others.",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            {
+              "id": "a",
+              "text": "Single-customer mortgage advice",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Multi-party transactions where obligations to one customer would breach obligations to another",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "ATM withdrawal disputes",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Currency conversion at branch counters",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batch8",
+      "questions": [
+        {
+          "id": "b8q1",
+          "text": "How did some respondents characterise the FCA's current approach to regulation?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraphs 1.29 and 4.3 describe respondents calling the FCA's approach prescriptive, rule-based and 'tick-box'.",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "Outcomes-only and discretionary",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Prescriptive, rule-based and 'tick-box'",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Voluntary and incentive-led",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Industry-led without regulator oversight",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b8q2",
+          "text": "Stakeholders asked the FCA to apply the Principles more broadly, particularly in its supervisory function.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 1.28 explicitly asks the FCA to apply the Principles more broadly, especially in supervision.",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b8q3",
+          "text": "Stakeholder suggestions to the FCA on improving the use of the existing framework fell into which two broad categories?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 4.2 identifies the two categories: how the FCA applies the Principles, and the FCA's transparency about what is expected of firms.",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "How the FCA applies the Principles, and FCA transparency about what is expected of firms",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Capital adequacy and liquidity",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Market abuse and benchmarks",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Tax reporting and AML",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b8q4",
+          "text": "Which of the following was a specific transparency suggestion received by the FCA?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 4.6 lists specific suggestions including publishing greater volumes of 'good' and 'bad' practice guidance.",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            {
+              "id": "a",
+              "text": "Publishing a greater volume of 'good' and 'bad' practice guidance",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Reducing the number of supervisory communications to firms",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Removing all enforcement publicity",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Closing public consultations entirely",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b8q5",
+          "text": "Stakeholders suggested closer supervisory relationships should be limited to large firms only.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 4.6 specifically calls for closer supervisory relationships with smaller firms.",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b8q6",
+          "text": "What benefit did firms say they would gain from clearer FCA communication of expectations?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraphs 1.28 and 4.6 explain that firms would feel more confident and incentivised to improve practices based on a clear understanding of FCA expectations.",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            {
+              "id": "a",
+              "text": "Confidence and incentive to proactively improve practices",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Reduced staff training requirements",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Lower capital requirements automatically",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Removal of supervisory visits",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b8q7",
+          "text": "Stakeholders suggested publishing summaries and lessons learned from FCA enforcement action to improve transparency.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 4.6 explicitly lists publishing summaries and lessons learnt from enforcement action as a suggestion.",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b8q8",
+          "text": "How did stakeholders say the FCA could better signal its expectations regarding firm practices?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 4.7 states stakeholders suggested the FCA change its appetite to intervene by acting earlier, more decisively and more often.",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            {
+              "id": "a",
+              "text": "Acting earlier, more decisively and more often",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Reducing supervisory engagement",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Outsourcing intervention to industry bodies",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Issuing only confidential guidance",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b8q9",
+          "text": "Stakeholders argue that a 'tick-box' culture leads firms to do what?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 1.29 states such a culture encourages firms to wait until they are 'found out' by the regulator instead of proactively assessing best outcomes for consumers.",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            {
+              "id": "a",
+              "text": "Continuously self-audit beyond compliance",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Wait until they are 'found out' by the regulator",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Hire additional consumer advocates",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Avoid product development entirely",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b8q10",
+          "text": "Stakeholders suggested the TCF Consumer Outcomes should remain unchanged regardless of evolving practice.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 4.6 explicitly suggests regularly revising the TCF Consumer Outcomes to reflect current best and worst practice.",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batch9",
+      "questions": [
+        {
+          "id": "b9q1",
+          "text": "Some stakeholders argued that fundamental culture change can only come from where?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraphs 1.30 and 5.2 state that real culture change must come from within firms and begin at the top of the management structure.",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "External regulators alone",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "From within firms, beginning at the top of the management structure",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Parliamentary intervention",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Consumer-led litigation only",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b9q2",
+          "text": "Stakeholders unanimously agreed that regulatory intervention alone is sufficient to drive cultural change in financial services.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraphs 1.30 and 5.2 record stakeholders saying real culture change cannot be driven by external force alone.",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b9q3",
+          "text": "Why did some stakeholders argue voluntary industry initiatives have unique 'stickability'?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 5.3 explains stakeholders argued voluntary initiatives stick because they arise from a genuine desire to improve standards rather than fear of sanction.",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "Because they impose criminal liability",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Because they arise from a genuine desire to improve standards",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Because they avoid all FCA oversight",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Because they bypass consumer panels",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b9q4",
+          "text": "'Window-dressing' is described in FS19/2 as the risk that change made only in response to a threat of sanction may be superficial.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 5.3 describes window-dressing as the risk that sanction-driven change is superficial rather than genuine.",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b9q5",
+          "text": "Despite arguing real change must come from within firms, what role did stakeholders say the FCA should play regarding culture?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraphs 1.31 and 5.4 state the FCA has an important role to play in driving and sustaining the debate about culture change in financial services.",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            {
+              "id": "a",
+              "text": "Withdraw entirely from cultural matters",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Drive and sustain the debate about culture change in financial services",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Issue prescriptive cultural rules immediately",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Outsource culture monitoring to firms",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b9q6",
+          "text": "Many stakeholders described the SM&CR as a significant regulatory shift expected to yield real improvements in culture and governance.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 5.1 records this view from many stakeholders.",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b9q7",
+          "text": "Which industry-led mechanism did stakeholders highlight as evidence that cultural change can be driven from within the sector?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraph 5.3 references the efforts of professional standards boards and voluntary industry initiatives.",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            {
+              "id": "a",
+              "text": "Cross-border tax committees",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Professional standards boards and voluntary industry initiatives",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Mandatory FCA culture inspections",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "External whistleblowing hotlines only",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b9q8",
+          "text": "Some stakeholders said cultural change driven by threat of sanction risks producing only 'window-dressing'.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 5.3 explicitly raises this 'window-dressing' concern.",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b9q9",
+          "text": "Which Business Plan priority is connected to the FCA's continuing work on culture in financial services?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraphs 1.32 and 6.1 link this work to the Business Plan priority of exploring issues of culture and governance in financial services.",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            {
+              "id": "a",
+              "text": "Exploring issues of culture and governance in financial services",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Eliminating retail market intermediaries",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Imposing new capital surcharges",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Replacing the Financial Ombudsman Service",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b9q10",
+          "text": "Stakeholders said the will to change culture must come from firms themselves and begin at the top of management.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraph 1.30 explicitly states the will to change must come from firms themselves and begin at the top of the management structure.",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batch10",
+      "questions": [
+        {
+          "id": "b10q1",
+          "text": "When did the FCA commit to publishing a further paper seeking detailed views on specific options for change?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraphs 1.38 and 6.9 state the FCA committed to publishing a further paper in autumn 2019.",
+          "points": 1,
+          "sortOrder": 1,
+          "options": [
+            {
+              "id": "a",
+              "text": "Spring 2018",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Autumn 2019",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Summer 2020",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Winter 2017",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b10q2",
+          "text": "The FCA's commitment to publish a further paper on this work was included in the Business Plan 2019/20.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraphs 1.38 and 6.9 confirm this commitment was included in the Business Plan 2019/20.",
+          "points": 1,
+          "sortOrder": 2,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b10q3",
+          "text": "Which two options has the FCA identified as its primary focus following early analysis of the responses?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraphs 1.35 and 6.6 identify reviewing how the FCA applies the regulatory framework (especially the Principles) and new/revised Principles, including consideration of a potential private right of action for Principles breaches.",
+          "points": 1,
+          "sortOrder": 3,
+          "options": [
+            {
+              "id": "a",
+              "text": "Higher capital requirements and stress tests",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Reviewing how the regulatory framework is applied, and new/revised Principles",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Replacing the Ombudsman with arbitration",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Outsourcing supervision to industry bodies",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b10q4",
+          "text": "Who would need to make any changes to primary legislation that introduced a statutory duty of care?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraphs 1.36 and 6.7 state that changes to primary legislation would need to be made by Parliament.",
+          "points": 1,
+          "sortOrder": 4,
+          "options": [
+            {
+              "id": "a",
+              "text": "The FCA acting alone",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Parliament",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "The Financial Ombudsman Service",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "HM Treasury alone by statutory instrument",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b10q5",
+          "text": "FS19/2 concludes that the greater visibility argument alone is a sufficient basis for changes to primary legislation introducing a statutory duty.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraphs 1.36 and 6.7 explicitly state the FCA does not consider visibility a sufficient basis for primary legislative change at this stage.",
+          "points": 1,
+          "sortOrder": 5,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": false, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": true, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b10q6",
+          "text": "Which stakeholder bodies did the FCA commit to continue engaging with during further internal work?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraphs 1.37 and 6.8 reference continuing engagement with the FCA's three statutory panels.",
+          "points": 1,
+          "sortOrder": 6,
+          "options": [
+            {
+              "id": "a",
+              "text": "Foreign supervisory authorities only",
+              "isCorrect": false,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "The FCA's three statutory panels",
+              "isCorrect": true,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Auditors of all regulated firms",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "International rating agencies",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b10q7",
+          "text": "FS19/2 acknowledges there is unlikely to be a one-size-fits-all solution to deficiencies in consumer protection.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraphs 1.34 and 6.4 explicitly state that consumer harm has many causes and a one-size-fits-all solution is unlikely.",
+          "points": 1,
+          "sortOrder": 7,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        },
+        {
+          "id": "b10q8",
+          "text": "What is the goal of the FCA's continued work on culture in financial services as set out in FS19/2?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraphs 1.38 and 6.10 state the goal is helping firms develop a clear understanding of what a healthy culture looks like, understand its benefits and take proactive steps to change ineffective cultures.",
+          "points": 1,
+          "sortOrder": 8,
+          "options": [
+            {
+              "id": "a",
+              "text": "Helping firms understand what a healthy culture looks like and take proactive steps to change ineffective cultures",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Replacing all senior management at regulated firms",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Eliminating consumer responsibility for financial decisions",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "Imposing fixed pay caps across financial services",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b10q9",
+          "text": "Which two Business Plan priorities does the FCA say this work will play an important part in?",
+          "type": "SINGLE_CHOICE",
+          "explanation": "Paragraphs 1.32 and 6.1 reference the future of regulation following the FCA's Mission and the UK leaving the EU, and exploring issues of culture and governance.",
+          "points": 1,
+          "sortOrder": 9,
+          "options": [
+            {
+              "id": "a",
+              "text": "Future of regulation (Mission/UK leaving the EU) and culture and governance in financial services",
+              "isCorrect": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "b",
+              "text": "Cyber security and financial inclusion only",
+              "isCorrect": false,
+              "sortOrder": 2
+            },
+            {
+              "id": "c",
+              "text": "Capital adequacy and stress testing",
+              "isCorrect": false,
+              "sortOrder": 3
+            },
+            {
+              "id": "d",
+              "text": "International tax cooperation and AML",
+              "isCorrect": false,
+              "sortOrder": 4
+            }
+          ]
+        },
+        {
+          "id": "b10q10",
+          "text": "FS19/2 indicates that the FCA's consideration of new/revised Principles will include the potential merits and unintended consequences of a private right of action for Principles breaches.",
+          "type": "TRUE_FALSE",
+          "explanation": "Paragraphs 1.35 and 6.6 explicitly include consideration of the potential private right of action for Principles breaches and any unintended consequences.",
+          "points": 1,
+          "sortOrder": 10,
+          "options": [
+            { "id": "a", "text": "True", "isCorrect": true, "sortOrder": 1 },
+            { "id": "b", "text": "False", "isCorrect": false, "sortOrder": 2 }
+          ]
+        }
+      ]
+    }
+  ]
+}
