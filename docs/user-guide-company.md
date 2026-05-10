@@ -35,7 +35,7 @@ This guide walks you through everything you need to run your organization on the
 
 Before you create an account, make sure you have one of the following:
 
-- A Google account. We'll create a Solana wallet for you behind the scenes, so you won't need to manage private keys.
+- A specific Google account that can be used as company admin (note that you cannot use the same account as an employee or a customer). We'll create a Solana wallet for you behind the scenes, so you won't need to manage private keys.
 - An existing Solana wallet such as Phantom, if you'd prefer to use one you already control.
 
 The platform currently runs on Solana Devnet, so no real funds are involved at any point. Anything that looks like a transaction is happening on a test network.
