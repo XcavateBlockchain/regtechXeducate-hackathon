@@ -59,8 +59,6 @@ Pick **Continue with wallet (advanced)**. A Phantom-powered screen will open wit
 - **Continue with Google.** Sign in with your Google account. Phantom creates and manages a wallet for you behind the scenes.
 - **Other Wallets.** Connect an existing Solana wallet like Phantom, Backpack, or any other compatible wallet.
 
-![Landing page sign-in modal showing the two options](screenshots/image1.png)
-
 Either path works. Once you authenticate, the platform takes you straight into the organization setup flow described next.
 
 ![Phantom wallet connection screen with the two options](screenshots/image2.png)
