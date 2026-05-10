@@ -48,13 +48,13 @@ Both employees and customers complete the same types of modules and earn the sam
 You'll need very little to get started:
 
 - A **Google account**. That's all. The platform creates a secure wallet for you automatically.
-- An **invite link** if you're an employee, or a **module share link** if you're an customer. The company you'll be working with provides this.
+- An **invite link** if you're an employee, or a **module share link** if you're a customer. The company you'll be working with provides this.
 
 ---
 
 ## 03 Joining the platform
 
-How you join depends on whether you're an employee or an customer. Both flows take less than a minute.
+How you join depends on whether you're an employee or a customer. Both flows take less than a minute.
 
 ### As an employee
 
