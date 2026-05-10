@@ -47,7 +47,7 @@ Both employees and customers complete the same types of modules and earn the sam
 
 You'll need very little to get started:
 
-- A **Google account**. That's all. The platform creates a secure wallet for you automatically.
+- A **Google account**. You will need a seperate google account for each role (note that you cannot use the same account as a company admin, so to test all three roles - company admin, employee and customer - you will need three seperate google accounts). The platform creates a secure wallet for each user role based on your google account automatically.
 - An **invite link** if you're an employee, or a **module share link** if you're a customer. The company you'll be working with provides this.
 
 ---
