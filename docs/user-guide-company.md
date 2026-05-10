@@ -58,6 +58,10 @@ Once you authenticate as a company admin, the platform takes you straight into t
 
 ![Phantom wallet connection screen with the two options](screenshots/image2.png)
 
+You will need to create a Phantom Wallet account four digit PIN
+
+![Phantom wallet connection screen with wallet PIN](screenshots/image23.png)
+
 > **Why the wallet path**
 > Organizations are tied to a wallet because the company vault that funds your modules is created on-chain. The first sign-in option on the platform ("Continue with Google (wallet)") is for individuals joining as employees or customers.
 >
