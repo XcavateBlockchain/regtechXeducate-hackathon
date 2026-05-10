@@ -62,6 +62,14 @@ You will need to create a Phantom Wallet account four digit PIN
 
 ![Phantom wallet connection screen with wallet PIN](screenshots/image23.png)
 
+You will be asked to accept connecting your Phantom Wallet to the regtechX app
+
+![Phantom wallet connection screen with regtechx](screenshots/image24.png)
+
+When you return to sign in to your account you will be asked to sign in with connected account
+
+![Phantom wallet sign in with connected account](screenshots/image25.png)
+
 > **Why the wallet path**
 > Organizations are tied to a wallet because the company vault that funds your modules is created on-chain. The first sign-in option on the platform ("Continue with Google (wallet)") is for individuals joining as employees or customers.
 >
