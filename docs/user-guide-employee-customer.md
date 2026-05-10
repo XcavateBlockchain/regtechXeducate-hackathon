@@ -269,7 +269,7 @@ No. The platform runs on a test network. Everything, from creating your wallet t
 **Do I need to install anything?**
 No. When you sign in with Google, a secure wallet is created for you automatically. No browser extensions or crypto knowledge needed.
 
-**Can I be both an employee and an customer?**
+**Can I be both an employee and a customer?**
 Not with the same Google account. Each account has one role. If you need both, use a separate Google account for each.
 
 ### Account issues
@@ -280,7 +280,7 @@ Ask your employer to send a new one. Expired links can't be reused, and claimed 
 **I signed up with the wrong Google account.**
 Your account is tied to the Google account you used when you first joined. Ask the company to create a new invite for your correct account.
 
-**I'm an customer and want to access more modules from the same company.**
+**I'm a customer and want to access more modules from the same company.**
 Each module has its own link. Ask the company to share the link for each additional module you need.
 
 ### Quizzes
